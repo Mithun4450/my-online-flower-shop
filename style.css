@@ -44,12 +44,89 @@ body{
     height: 540px;
     padding-top: 30px;
     padding-right: 150px;
-    padding-bottom: 0px;
+    padding-bottom: 0px;}
+       
     
-}
 .btn{
     padding: 12px 30px;
     background-color: #E55473;
     border-radius: 5px;
     border-style: none;
+}
+
+
+
+/* Feature Flower Part */
+.feature-text>h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #272727;
+}
+.feature-text>p{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.feature-flower-container{
+    width: 70%;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.flower{
+    width: 25%;
+    height: 250px;
+    border-radius: 100px 100px 0px 0px;
+
+}
+.f1{
+    background-image: url("Flower Asset/pngwing 6.png");
+    background-color: #A7216226;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: bottom;
+}
+.f2{
+    background-color: #0597A026;
+    background-image: url("Flower Asset/pngwing 5.png");
+    background-color: #A7216226;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+.f3{
+    background-color: #477D1126;
+    background-image: url("Flower Asset/pngwing 7.png");
+    background-color: #A7216226;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: bottom;
+}
+
+
+.flower img{
+    width: 100px;
+    height: 200px;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+.flower-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    text-decoration: underline;
 }
