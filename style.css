@@ -187,6 +187,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 
 }
 
@@ -219,4 +220,38 @@ body{
 
 .span-red{
     color: red;
+}
+
+
+
+/* Instagram Part */
+.instagram-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.instagram-text>h3{
+   color: #272727;
+   font-size: 30px;
+   font-weight: 800px;
+   margin-bottom: 10px;
+}
+.instagram-text>p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.instagram-photo-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.instagram-photo>img{
+    width: 200px;
+    height: 220px;
+
 }
