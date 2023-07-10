@@ -39,14 +39,27 @@ body{
 
 }
 
+
 .bannar-photo> img{
     width: 350px;
     height: 540px;
     padding-top: 30px;
     padding-right: 150px;
-    padding-bottom: 0px;}
-       
-    
+    padding-bottom: 0px;
+}
+
+/*  
+.bannar-photo{
+    width: 50%;
+    height: 100vh;
+    background-image:url("Flower Asset/pngwing 10.png") ;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: bottom right;
+    padding-right: 300px;
+}
+    */
+
 .btn{
     padding: 12px 30px;
     background-color: #E55473;
@@ -129,4 +142,35 @@ body{
     width: 70%;
     margin: auto;
     text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.delivery-container{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    background-color: #2727270D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.delivery-block{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.delivery-block>p{
+    color: #272727CC;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    
+
+}
+.delivery-block>img{
+    width: 50px;
+    padding: 15px;
 }
