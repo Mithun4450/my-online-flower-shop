@@ -248,10 +248,45 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
 
 }
 .instagram-photo>img{
     width: 200px;
     height: 220px;
+
+}
+
+
+/* Latest Deal Part */
+
+.latest-deal{
+    width: 70%;
+    height: 200px;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.latest-deal-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800px;
+    margin-bottom: 10px;
+
+}
+.latest-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400px;
+    margin-bottom: 15px;
+}
+.latest-deal-input{
+    width: 300px;
+    padding: 10px 20px;
+    margin-right: 10px;
 
 }
